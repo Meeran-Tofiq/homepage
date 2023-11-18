@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 2rem;
+    background: linear-gradient(160deg, rgb(81, 81, 238) 0 30%, white 30% 60%, rgb(81, 81, 238) 60% 90%, white 90% 100%);
+}
+
+.about-me {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; 
+    align-items: center;
+
+    flex-wrap: wrap;
+    padding-top: 3rem;
+
+    font-size: x-large;
+    color: white;
+}
+
+.about-me picture {
+    width: min-content;
+
+    text-align: center;
+    justify-self: center;
+}
+
+.about-me picture h1 {
+    position: relative;
+    top: 4rem;
+    font-size: 3rem;
+    text-shadow: rgb(82, 82, 235) 1px 0 20px;
+    margin: 0;
+}
+
+@media (max-width: 360px) {   
+    .about-me img {
+        width: 100vw;
+    }
+}
+
+.about-me .text {
+    background-color: white;
+    color: rgb(81, 81, 238);
+    
+    max-width: 750px;
+    padding: 1.5rem;
+
+    border-radius: 5px;
+    border: 3px solid rgb(81, 81, 238);
+}
