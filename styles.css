@@ -37,12 +37,6 @@ main {
     margin: 0;
 }
 
-@media (max-width: 360px) {   
-    .about-me img {
-        width: 100vw;
-    }
-}
-
 .text {
     background-color: white;
     color: rgb(81, 81, 238);
@@ -98,4 +92,19 @@ footer {
 
 footer a {
     color: wheat;
+}
+
+@media (max-width: 360px) {   
+    .about-me img {
+        width: 100vw;
+    }
+
+    .my-work {
+        padding: 0rem 1rem;
+        font-size: large;
+    }
+
+    .work {
+        padding: 1rem;
+    }
 }
