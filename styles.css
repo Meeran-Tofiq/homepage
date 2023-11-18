@@ -33,7 +33,7 @@ main {
     position: relative;
     top: 4rem;
     font-size: 3rem;
-    text-shadow: rgb(82, 82, 235) 1px 0 20px;
+    text-shadow: rgb(93, 93, 245) 1px 0 20px;
     margin: 0;
 }
 
@@ -43,15 +43,46 @@ main {
     }
 }
 
-.about-me .text {
+.text {
     background-color: white;
     color: rgb(81, 81, 238);
-    
+}
+
+.about-me .text {
     max-width: 750px;
     padding: 1.5rem;
 
     border-radius: 5px;
     border: 3px solid rgb(81, 81, 238);
+}
+
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.work {
+    background-color: white;
+    border: 3px solid rgb(81, 81, 238);
+    max-width: 400px;
+    padding: 3rem;
+}
+
+.work img {
+    width: 100%;
+}
+
+.work h3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.work a {
+    justify-self: end;
 }
 
 footer {
