@@ -72,6 +72,10 @@ main {
     padding: 3rem;
 }
 
+.work a {
+    color: rgb(49, 49, 241);
+}
+
 .work img {
     width: 100%;
 }
